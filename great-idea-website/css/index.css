@@ -64,7 +64,17 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+/****************************************************************/
+/***************************************************************/
 
+*{
+	border:solid red 1px;
+}
+.outer-container{
+	width:80%;
+	display:block;
+	margin: auto;
+}
 
 a{
 	text-decoration:none;
@@ -90,12 +100,11 @@ margin-bottom:10%;
 	position:relative;
 	display:inline-block;
 	width:15%;
-	margin-left:80%;
+	margin-left:88%;
 	padding:1.2%;
 	
 	
 }
-
 
 .header h1{
 	text-align:center;
@@ -103,44 +112,83 @@ margin-bottom:10%;
 
 
 .innovation{
-	margin-top:3%;
-	border:solid red 2px;
-	width:90%;
+	margin:5% auto;
 	display:block;
-	margin:auto;
+	
 	
 }
 
 .innovation h1{
-	font-size:500%;
-	border:solid black 1px;
+	font-size:600%;
 	display: inline-block;
-	width:33%;
-	margin-left:10%;
+	width:50%;
+	margin-bottom:0;
 	position:absolute;
-	padding:6.35%;
+	margin-top:5%;
 	
 }
 
 .btn{
-	padding:1.5%;
+	padding:2%;
 	width:35%;
+	margin-top:0;
 }
 
 
 
 .innovation .code-snippet{
 	position:relative;
-	border:solid black 1px;
 	display:inline-block;
-	width:33.05%;
+	width:35%;
 	padding: 1%;
 	margin-left:55%;
-	margin-bottom:10%;
+	margin-bottom:5%;
 	
 }
 
-hr{
-	width:80%;
+
+
+
+.above-img{
+	
+	display:inline-block;
+	width:45%;
+	margin-bottom:4%; 
+}
+
+ 
+.above-img.one{
+	margin-right:9.5%;
+}
+
+.middle-img{
+	
+	width: 100%;
+	margin-bottom:4%;
+}
+
+.below-img {
+	display:inline-block;
+	width:30%;
+	margin-bottom:4%;
+}
+
+.below-img.one, .below-img.two{
+	margin-right:4.5%;
+}
+
+.footer{
+	margin-bottom:8%;
+}
+
+.footer span{
+	line-height: 2;
+}
+
+.footer .credits{
+
+	width:20%;
+	margin:3% auto;
+	border:red solid 1px;
 	
 }
