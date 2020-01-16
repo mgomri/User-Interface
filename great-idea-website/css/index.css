@@ -83,14 +83,13 @@ position:absolute;
 display:inline-block;
 width:80%;
 text-align:center;
-margin-bottom:20%;
+margin-bottom:10%;
 }
 
 .logo{
 	position:relative;
 	display:inline-block;
 	width:15%;
-	
 	margin-left:80%;
 	padding:1.2%;
 	
@@ -100,4 +99,48 @@ margin-bottom:20%;
 
 .header h1{
 	text-align:center;
+}
+
+
+.innovation{
+	margin-top:3%;
+	border:solid red 2px;
+	width:90%;
+	display:block;
+	margin:auto;
+	
+}
+
+.innovation h1{
+	font-size:500%;
+	border:solid black 1px;
+	display: inline-block;
+	width:33%;
+	margin-left:10%;
+	position:absolute;
+	padding:6.35%;
+	
+}
+
+.btn{
+	padding:1.5%;
+	width:35%;
+}
+
+
+
+.innovation .code-snippet{
+	position:relative;
+	border:solid black 1px;
+	display:inline-block;
+	width:33.05%;
+	padding: 1%;
+	margin-left:55%;
+	margin-bottom:10%;
+	
+}
+
+hr{
+	width:80%;
+	
 }
